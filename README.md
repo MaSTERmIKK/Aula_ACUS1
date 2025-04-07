@@ -1,2 +1,3 @@
 # Aula_ACUS1
-Qui c'è la descrizione
+
+Sono mirko campari, docente dell'aula, qui carichero i file extra le slide e le correzioni. 
