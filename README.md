@@ -6,8 +6,8 @@ Qui troverai tutto il materiale necessario per seguire le lezioni: esercizi, ese
 
 ## Struttura della repository 📁
 
-- `Es_Codice/` → Codice ed esempi presentati durante le lezioni.
-- `Correzione_es/` → Esercizi corretti rispetto a quelli affrontati in aula
+- `Esempi_Codice/` → Codice ed esempi presentati durante le lezioni.
+- `Correzioni_es/` → Esercizi corretti rispetto a quelli affrontati in aula
 
 ## Requisiti 🔧
 
