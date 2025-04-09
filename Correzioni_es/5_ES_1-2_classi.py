@@ -50,7 +50,7 @@ class Libro():
 while True:
     titolo = input("inserisci il titolo")
     autore = input("inserisci l'autore")
-    nr_pag = int(print("inserisci il numero pagine"))
+    nr_pag = int(input("inserisci il numero pagine"))
     
     Libro_mio = Libro(titolo, autore, nr_pag)
     Libro_mio.stampa()
