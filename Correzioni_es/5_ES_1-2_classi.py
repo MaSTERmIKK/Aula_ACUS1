@@ -15,19 +15,19 @@ class Punto():
             print("il valore è negativo o 0")
 #menu per la gestione dei Punti cartesiani           
 while True:
-    scelta = ("vuoi creare il punto?")
+    scelta = input("vuoi creare il punto?")
     if scelta.lower == "si":
         x_ins = input("inserisci la coordinata x")
         y_ins = input("inserisci la coordinata y")
         Punto_mio = Punto(x_ins, y_ins)
         
-    scelta = ("vuoi modificare le coordinate?")
+    scelta = input("vuoi modificare le coordinate?")
     if scelta.lower == "si":
         x_ins = input("inserisci la coordinata x")
         y_ins = input("inserisci la coordinata y")
         Punto_mio.muovi_punti(x_ins,y_ins)
     
-    scelta_ciclo = ("vuoi ripetere?")
+    scelta_ciclo = input("vuoi ripetere?")
     if scelta_ciclo.lower == "si":
         continue
     else:
@@ -55,7 +55,7 @@ while True:
     Libro_mio = Libro(titolo, autore, nr_pag)
     Libro_mio.stampa()
     
-    scelta_ciclo = ("vuoi ripetere?")
+    scelta_ciclo = input("vuoi ripetere?")
     if scelta_ciclo.lower == "si":
         continue
     else:
