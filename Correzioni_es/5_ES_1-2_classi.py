@@ -10,7 +10,7 @@ class Punto():
             self.x = newX
             self.y = newY
             print("la distanza dal origine x ora e ", self.x)
-            print("la distanza dal origine xy ora e ", self.y)
+            print("la distanza dal origine y ora e ", self.y)
         else:
             print("il valore è negativo o 0")
 #menu per la gestione dei Punti cartesiani           
