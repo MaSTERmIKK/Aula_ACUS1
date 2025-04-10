@@ -1,0 +1,61 @@
+CREATE TABLE Clienti (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT,
+    nazione TEXT,
+    soldi REAL
+);
+
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Luca', 'Italia', 1250.50);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Maria', 'Spagna', 980.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('John', 'USA', 2300.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Anna', 'Germania', 310.75);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Carlos', 'Messico', 1120.20);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Sara', 'Italia', 540.10);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Tom', 'UK', 1800.99);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Elisa', 'Francia', 720.25);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Yuki', 'Giappone', 1600.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Omar', 'Egitto', 450.30);
+
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Nina', 'Italia', 100.50);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Pietro', 'Italia', 950.90);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Chloe', 'Francia', 1230.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Ivan', 'Russia', 340.60);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Khalid', 'Marocco', 210.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Emily', 'USA', 1980.75);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Marta', 'Spagna', 300.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Giulia', 'Italia', 750.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Ahmad', 'Egitto', 430.50);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Liam', 'Canada', 2200.00);
+
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Isabella', 'Brasile', 800.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Sofia', 'Argentina', 1320.40);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Michele', 'Italia', 1770.20);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Leon', 'Germania', 520.10);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Camila', 'Cile', 630.30);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Noah', 'UK', 1560.80);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Francesca', 'Italia', 910.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('George', 'UK', 880.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Olga', 'Russia', 700.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Lucia', 'Italia', 1050.50);
+
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Stefano', 'Italia', 570.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Daniela', 'Portogallo', 430.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Riccardo', 'Italia', 1500.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Emma', 'Irlanda', 650.75);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Fabio', 'Italia', 1440.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Hassan', 'Pakistan', 350.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Greta', 'Svezia', 880.50);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Aisha', 'Nigeria', 310.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Giorgio', 'Italia', 1230.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Zoe', 'Australia', 990.00);
+
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Andrea', 'Italia', 660.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Mehdi', 'Tunisia', 410.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Valentina', 'Italia', 720.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Kevin', 'Irlanda', 530.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Selena', 'USA', 2020.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Davide', 'Italia', 340.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Linda', 'Austria', 460.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Amir', 'Iran', 710.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Elena', 'Italia', 880.00);
+INSERT INTO Clienti (nome, nazione, soldi) VALUES ('Alan', 'Canada', 1350.00);
