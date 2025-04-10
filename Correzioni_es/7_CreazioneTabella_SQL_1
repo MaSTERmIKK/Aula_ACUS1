@@ -1,0 +1,17 @@
+CREATE TABLE studenti (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT,
+    eta INTEGER,
+    corso TEXT
+);
+
+INSERT INTO studenti (nome, eta, corso) VALUES ('Luca', 22, 'Informatica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Maria', 19, 'Fisica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Giulia', 24, 'Matematica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Marco', 28, 'Informatica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Elisa', 21, 'Fisica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Davide', 26, 'Matematica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Chiara', 23, 'Fisica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Simone', 20, 'Informatica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Alessia', 27, 'Matematica');
+INSERT INTO studenti (nome, eta, corso) VALUES ('Fabio', 22, 'Fisica');
