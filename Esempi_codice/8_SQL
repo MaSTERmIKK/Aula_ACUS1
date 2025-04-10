@@ -1,0 +1,36 @@
+-- 1. Creazione di una tabella "Studenti"
+CREATE TABLE Studenti (
+    ID INT PRIMARY KEY,
+    Nome VARCHAR(50),
+    Eta INT,
+    Citta VARCHAR(50)
+);
+
+-- 2. Inserimento dati nella tabella
+INSERT INTO Studenti (ID, Nome, Eta, Citta) VALUES (1, 'Anna', 23, 'Roma');
+INSERT INTO Studenti (ID, Nome, Eta, Citta) VALUES (2, 'Luca', 30, 'Milano');
+INSERT INTO Studenti (ID, Nome, Eta, Citta) VALUES (3, 'Marco', 25, 'Torino');
+
+-- 3. Selezione di tutti i dati
+SELECT * FROM Studenti;
+
+-- 4. Selezione di alcune colonne
+SELECT Nome, Citta FROM Studenti;
+
+-- 5. Filtro con WHERE
+SELECT * FROM Studenti WHERE Eta > 25;
+
+-- 6. Ordinamento dei risultati
+SELECT * FROM Studenti ORDER BY Eta DESC;
+
+-- 7. Aggiornamento di un record
+UPDATE Studenti SET Citta = 'Napoli' WHERE ID = 3;
+
+-- 8. Eliminazione di un record
+DELETE FROM Studenti WHERE ID = 2;
+
+-- 9. Conteggio dei record
+SELECT COUNT(*) FROM Studenti;
+
+-- 10. Media dell’età
+SELECT AVG(Eta) AS MediaEta FROM Studenti;
