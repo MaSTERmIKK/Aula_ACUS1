@@ -1,0 +1,29 @@
+CREATE TABLE Auto (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    marca TEXT,
+    modello TEXT,
+    anno INTEGER,
+    prezzo REAL
+);
+
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Fiat', 'Punto', 2012, 4500.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Ford', 'Focus', 2016, 6200.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('BMW', '320i', 2019, 18500.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Toyota', 'Yaris', 2020, 9000.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Peugeot', '208', 2018, 7500.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Audi', 'A3', 2017, 14000.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Volkswagen', 'Golf', 2015, 8800.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Renault', 'Clio', 2021, 9700.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Hyundai', 'i20', 2019, 8100.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Kia', 'Picanto', 2014, 4300.00);
+
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Mercedes', 'A-Class', 2022, 21000.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Citroen', 'C3', 2013, 3900.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Opel', 'Corsa', 2015, 5600.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Mazda', '3', 2016, 7000.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Skoda', 'Fabia', 2020, 8500.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Honda', 'Civic', 2017, 9300.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Nissan', 'Micra', 2018, 7200.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Jeep', 'Renegade', 2021, 15000.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Dacia', 'Sandero', 2019, 6000.00);
+INSERT INTO Auto (marca, modello, anno, prezzo) VALUES ('Alfa Romeo', 'Giulietta', 2016, 8700.00);
