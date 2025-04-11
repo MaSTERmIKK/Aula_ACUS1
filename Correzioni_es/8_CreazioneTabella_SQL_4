@@ -1,0 +1,44 @@
+CREATE TABLE Fornitori (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT,
+    paese TEXT
+);
+
+CREATE TABLE Prodotti (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT,
+    categoria TEXT,
+    marca TEXT,
+    prezzo REAL,
+    fornitore_id INTEGER,
+    FOREIGN KEY (fornitore_id) REFERENCES Fornitori(id)
+);
+
+
+INSERT INTO Fornitori (nome, paese) VALUES ('TechGlobal', 'USA');
+INSERT INTO Fornitori (nome, paese) VALUES ('ElettroItalia', 'Italia');
+INSERT INTO Fornitori (nome, paese) VALUES ('GadgetWorld', 'Germania');
+INSERT INTO Fornitori (nome, paese) VALUES ('FuturaTech', 'Francia');
+INSERT INTO Fornitori (nome, paese) VALUES ('DigitalPoint', 'Spagna');
+
+
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Smartphone A1', 'Telefonia', 'Samsung', 299.99, 1);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Notebook Z3', 'Informatica', 'HP', 749.00, 2);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('TV 55" UltraHD', 'TV', 'LG', 899.90, 3);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Mouse Wireless', 'Accessori', 'Logitech', 29.99, 1);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Stampante X100', 'Periferiche', 'Epson', 119.00, 4);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Router AX1800', 'Rete', 'TP-Link', 89.99, 2);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Tablet T10', 'Informatica', 'Lenovo', 199.00, 5);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Webcam HD', 'Accessori', 'Microsoft', 59.00, 3);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Console GPlay', 'Gaming', 'Sony', 499.99, 1);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('SSD 1TB', 'Storage', 'Crucial', 139.00, 2);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Smartwatch FitPro', 'Wearable', 'Huawei', 129.99, 4);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('PowerBank 20000mAh', 'Accessori', 'Anker', 45.00, 2);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Monitor 27" 4K', 'Periferiche', 'Samsung', 379.00, 1);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Notebook UltraSlim', 'Informatica', 'Dell', 950.00, 3);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Auricolari BT X2', 'Audio', 'Sony', 89.90, 5);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Hard Disk 2TB', 'Storage', 'Western Digital', 115.00, 2);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Smart Speaker', 'Domotica', 'Amazon', 69.00, 1);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Mini Drone CamX', 'Gadget', 'DJI', 299.99, 4);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Switch di Rete 8P', 'Rete', 'Netgear', 55.00, 3);
+INSERT INTO Prodotti (nome, categoria, marca, prezzo, fornitore_id) VALUES ('Console MiniRetro', 'Gaming', 'Retron', 149.00, 5);
